@@ -1,32 +1,37 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
-# 第一优先级：直接阻止所有.env文件及其变体
+# ================================
+# Dynamics 365 Business Central (AL)
+# ================================
+.vscode/              # VS Code 配置（含 launch.json、tasks.json）
+.alcache/             # 编译缓存
+.alpackages/          # 下载的符号包
+.snapshots/           # 快照文件
+.output/              # 测试输出目录
+*.app                 # 编译后的扩展文件
+rad.json              # Rapid Application Development 文件
+*.g.xlf               # 翻译基准文件
+*.bclicense           # 许可证文件
+*.flf                 # 许可证文件（备选）
+TestResults.xml       # 测试结果（XML 格式）
+TestResults/          # 测试结果目录（MSTest 等生成）
+*.snk                 # 强名称密钥文件（敏感，绝对不要提交）
+*.pdb                 # 调试符号文件
+.vs/                  # Visual Studio 缓存文件夹
+*.user                # VS 用户配置文件
+*.tmp                 # 临时文件
+*.bak                 # 备份文件
+*.log                 # 日志文件
+.DS_Store             # macOS 系统文件（通用）
+
+# ================================
+# 敏感环境变量（严防 API Key 泄露）
+# ================================
 .env
 .env.*
-!.env.example   # 例外：允许上传 .env.example 模板文件
+!.env.example         # 允许上传模板文件
 
-# Python 编译缓存和打包文件
+# ================================
+# Python 编译缓存与打包
+# ================================
 __pycache__/
 *.py[codz]
 *.so
@@ -34,8 +39,8 @@ build/
 dist/
 *.egg-info/
 
-# 项目环境与本地配置
-.venv/          # 虚拟环境目录
-.idea/          # IDE配置
-.vscode/
-.DS_Store
+# ================================
+# 本地开发环境与 IDE（通用）
+# ================================
+.venv/                # 虚拟环境
+.idea/                # IntelliJ / PyCharm
