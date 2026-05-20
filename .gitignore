@@ -21,3 +21,21 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# 第一优先级：直接阻止所有.env文件及其变体
+.env
+.env.*
+!.env.example   # 例外：允许上传 .env.example 模板文件
+
+# Python 编译缓存和打包文件
+__pycache__/
+*.py[codz]
+*.so
+build/
+dist/
+*.egg-info/
+
+# 项目环境与本地配置
+.venv/          # 虚拟环境目录
+.idea/          # IDE配置
+.vscode/
+.DS_Store
