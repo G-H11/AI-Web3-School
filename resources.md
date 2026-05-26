@@ -47,21 +47,21 @@
 ### 开发工具
 - [Node.js & npm](https://nodejs.org/en/)
 - 代码编辑器：[VSCode](https://code.visualstudio.com/)、[Cursor](https://www.cursor.com/)（AI 辅助编程）
-- 智能合约框架：Hardhat、Foundry、OpenZeppelin
+- 智能合约框架：Hardhat、Foundry、OpenZeppelin[reference:10]
 - 钱包：MetaMask、Trust Wallet
 - 区块链浏览器：Etherscan
 
 ## 四、AI × Web3 交叉实践
 
 ### 课程与训练营
-- [AI+Web3 速成班：免费课程 + 前沿洞察](https://foresightnews.pro/article/detail/76145)（OpenBuild，含 LangChain、Dify.ai 工具链）
+- [AI+Web3 速成班：免费课程 + 前沿洞察](https://foresightnews.pro/article/detail/76145)（OpenBuild，含 LangChain、Dify.ai 工具链）[reference:12]
 - [深度创作营：加密、AI 与 Web3 创新中心 2026](https://gate.tv/)（链上数据分析、情绪驱动 AI 交易模型）
 
 ### Agent 开发教程（分类整理）
 
 **生态官方教程**：
 - [Rootstock：Conversational AI Agent with Blockchain Actions](https://dev.rootstock.io/ja/use-cases/ai-automation/ai-agent-rootstock/)（NextJS + Groq API，可执行 DeFi 操作）
-- [Linea：Build an AI Agent with ElizaOS](https://docs.linea.build/network/tutorials/aiagent-quickstart)（ElizaOS 框架，交互 Linea 区块链）
+- [Linea：Build an AI Agent with ElizaOS](https://docs.linea.build/network/tutorials/aiagent-quickstart)（ElizaOS 框架，交互 Linea 区块链）[reference:15]
 - [Ethereum.org：Make your own AI trading agent](https://ethereum.org/)（以太坊官方 AI 交易代理教程）
 
 **聚合与生态工具**：
@@ -91,3 +91,4 @@
 - [GitHub 官网](https://github.com/)（学习仓库托管）
 - [GitHub CLI](https://cli.github.com/)（命令行仓库管理）
 - 安全提醒：学习过程中切勿将私钥、助记词、API Key 上传至公开仓库；大额资产建议使用冷钱包存储
+>>>>>>> a62dde5 (Week 2 Day 1: 每日规划 + Cobo 会议笔记 + AI×Web3 问题地图 + prompts/logs 记录系统)
