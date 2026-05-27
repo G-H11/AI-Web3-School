@@ -15,4 +15,11 @@
 | 4 | 读取 Zoom 转录 `meeting_saved_closed_caption.txt`（1800 行），整理为结构化会议笔记 → `notes/2026-05-26 Cobo Agentic Wallet 产品分享会.md`；更新技能加入「检查 Zoom 转录」步骤；写入记忆 |
 | 5 | 确认 `.md` 格式已满足 |
 | 6 | 拉取 Handbook Bridge 全部章节大纲，生成六方向问题地图 → `notes/2026-05-26 Week2 Module A - AI×Web3 问题地图.md`；选 Wallet/Permission 为 Week 2 主线 |
-| 7 | 创建 `prompts/prompts.md` + `logs/logs.md`；更新 daily note 任务状态 |
+|| 7 | 创建 `prompts/prompts.md` + `logs/logs.md`；更新 daily note 任务状态 |
+
+## 2026-05-27
+
+| # | 操作 |
+|---|------|
+| 1 | 生成 EOA vs 智能账户 vs 多签账户七维度对比笔记 → `notes/2026-05-27 EOA vs 智能账户 vs 多签账户对比.md` |
+| 2 | 研究 ERC-8004（Trustless Agents）、ERC-8183（Agentic Commerce）、x402 协议规范；生成 AI 代码审计 Agent 商业流程设计（7 阶段 + 角色定义 + 人工确认清单 + x402 vs ERC-8183 对比） → `notes/2026-05-27 Agent 商业流程 - 代码审计场景.md` |
