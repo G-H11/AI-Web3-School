@@ -26,3 +26,5 @@
 | 3 | Week 2 Module B：设计 agent 完成任务并收款的完整商业流程（报价→验收→付款→仲裁），比较 x402 vs ERC-8183 |
 | 4 | 画最小 AI×Web3 工作流（AI 生成合约→人工复核→钱包签名→测试网部署→区块浏览器验证），标注 AI/人/链边界和风险 |
 | 5 | 设计受限 Web3 助手（DeFi 仓位健康检查）：输入输出示例、AI 可做与不可做的事、人工确认点、≥3 风险、验证方法 |
+| 6 | 将 Zoom 转录 `2026-05-27 Neo-Cypherpunk & the Cultural Layers of Privacy` 整理为中文会议笔记 |
+| 7 | 拆解 2 个 AI×Web3 项目：Virtuals Protocol 和 ORA/opAgent，分别分析 AI 部分、Web3 部分、可验证材料、个人判断 |

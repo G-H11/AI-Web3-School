@@ -25,3 +25,5 @@
 | 2 | 研究 ERC-8004、ERC-8183、x402 协议规范；生成 AI 代码审计 Agent 商业流程设计（7 阶段 + 角色定义 + 人工确认清单 + x402 vs ERC-8183 对比） → `notes/2026-05-27 Agent 商业流程 - 代码审计场景.md` |
 | 3 | 生成 AI×Web3 最小工作流 Mermaid 流程图（ERC-20 部署：5 阶段 + 三重边界 AI/人/链 + 6 风险点 + 文字解读 + 五句话总结） → `notes/2026-05-27 AI×Web3 最小工作流 - ERC20 部署.md` |
 | 4 | 生成受限 Web3 助手设计（DeFi 仓位健康检查）：Mermaid 流程图 + 输入输出示例 + AI 可做/不可做边界 + 6 人工确认点 + 4 风险限制 + 5 验证方法 → `notes/2026-05-27 受限 Web3 助手设计 - DeFi 仓位健康检查.md` |
+| 5 | 读取 Zoom 转录（747 行），整理为结构化中文会议笔记（Neo-Cypherpunk 隐私文化、旧 vs 新 Cypherpunk 对比、实践指南、Q&A） → `notes/2026-05-27 Neo-Cypherpunk 隐私文化 - 为什么隐私对 Builders 至关重要.md` |
+| 6 | 拆解 Virtuals Protocol（Agent 代币化/ERC-8183 共同作者）和 ORA/opAgent（opML 链上 AI 推理/智能合约钱包）：分析问题、AI 部分、Web3 部分、可验证材料、个人判断、对比表 → `notes/2026-05-27 AI×Web3 项目拆解 - Virtuals 与 ORA.md` |
