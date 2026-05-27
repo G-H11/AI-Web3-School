@@ -15,7 +15,7 @@
 | 4 | 读取 Zoom 转录 `meeting_saved_closed_caption.txt`（1800 行），整理为结构化会议笔记 → `notes/2026-05-26 Cobo Agentic Wallet 产品分享会.md`；更新技能加入「检查 Zoom 转录」步骤；写入记忆 |
 | 5 | 确认 `.md` 格式已满足 |
 | 6 | 拉取 Handbook Bridge 全部章节大纲，生成六方向问题地图 → `notes/2026-05-26 Week2 Module A - AI×Web3 问题地图.md`；选 Wallet/Permission 为 Week 2 主线 |
-|| 7 | 创建 `prompts/prompts.md` + `logs/logs.md`；更新 daily note 任务状态 |
+| 7 | 创建 `prompts/prompts.md` + `logs/logs.md`；更新 daily note 任务状态 |
 
 ## 2026-05-27
 
@@ -24,3 +24,4 @@
 | 1 | 生成 EOA vs 智能账户 vs 多签账户七维度对比笔记 → `notes/2026-05-27 EOA vs 智能账户 vs 多签账户对比.md` |
 | 2 | 研究 ERC-8004、ERC-8183、x402 协议规范；生成 AI 代码审计 Agent 商业流程设计（7 阶段 + 角色定义 + 人工确认清单 + x402 vs ERC-8183 对比） → `notes/2026-05-27 Agent 商业流程 - 代码审计场景.md` |
 | 3 | 生成 AI×Web3 最小工作流 Mermaid 流程图（ERC-20 部署：5 阶段 + 三重边界 AI/人/链 + 6 风险点 + 文字解读 + 五句话总结） → `notes/2026-05-27 AI×Web3 最小工作流 - ERC20 部署.md` |
+| 4 | 生成受限 Web3 助手设计（DeFi 仓位健康检查）：Mermaid 流程图 + 输入输出示例 + AI 可做/不可做边界 + 6 人工确认点 + 4 风险限制 + 5 验证方法 → `notes/2026-05-27 受限 Web3 助手设计 - DeFi 仓位健康检查.md` |
