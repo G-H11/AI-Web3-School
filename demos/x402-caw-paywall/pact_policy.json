@@ -1,0 +1,77 @@
+{
+  "_comment": "Cobo CAW Pact Policy — defines what the Agent wallet CAN and CANNOT do",
+  "_version": "1.0",
+  "_scenario": "Week 2 Module B: x402 Paywall + CAW autonomous payment loop",
+
+  "policy_id": "pact-x402-demo-001",
+  "enabled": true,
+  "created_at": "2026-05-28T00:00:00Z",
+  "valid_until": "2026-06-28T00:00:00Z",
+
+  "agent_id": "agent-summarizer-01",
+  "wallet_address": "0xAgentCAWAddressOnBaseSepolia",
+
+  "description": "Allow agent to pay up to $10/tx and $100/day in USDC for x402-protected AI inference services",
+
+  "spending_limits": {
+    "per_transaction": 10000000,
+    "_per_transaction_human": "$10.00 USDC (6 decimals → 10000000)",
+    "daily": 100000000,
+    "_daily_human": "$100.00 USDC",
+    "weekly": 500000000,
+    "_weekly_human": "$500.00 USDC"
+  },
+
+  "allowed_tokens": [
+    "0x036CbD53842c5426634e792954f7C8BC70DEcbA1"
+  ],
+  "_allowed_tokens_note": "USDC on Base Sepolia only",
+
+  "allowed_recipients": [
+    "0xServiceProviderCAW..."
+  ],
+  "_allowed_recipients_note": "Only the x402 service provider can receive funds",
+
+  "allowed_actions": [
+    "transfer"
+  ],
+  "_allowed_actions_note": "Agent can only do ERC-20 transfer, no approve/swap/contract calls",
+
+  "blocked_actions": [
+    "approve",
+    "transferFrom",
+    "swapExactTokensForTokens",
+    "swapExactETHForTokens",
+    "multicall",
+    "delegatecall"
+  ],
+
+  "time_restrictions": {
+    "allowed_hours": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+    "_allowed_hours_note": "24/7 (no time restriction for this demo)",
+    "min_interval_seconds": 5,
+    "_min_interval_note": "Minimum 5 seconds between transactions (rate limit)"
+  },
+
+  "confirmation_requirements": {
+    "auto_confirm_below": 5000000,
+    "_auto_confirm_below_human": "$5.00 — auto-execute below this threshold",
+    "require_human_above": 5000000,
+    "_require_human_above_human": "$5.00 — require human confirmation above this",
+    "cooldown_after_human_confirm": 300,
+    "_cooldown_note": "5 minute cooldown after human confirmation"
+  },
+
+  "revocation": {
+    "auto_revoke_on": ["daily_limit_reached", "weekly_limit_reached", "policy_expired"],
+    "manual_revoke": "User sends 'Revoke Pact pact-x402-demo-001' to agent",
+    "guardian_addresses": [],
+    "_guardian_note": "Optional: guardian addresses that can freeze the policy"
+  },
+
+  "audit": {
+    "log_all_transactions": true,
+    "merkle_root_onchain": "daily",
+    "alert_on": ["daily_limit_80_percent", "consecutive_failures_3"]
+  }
+}

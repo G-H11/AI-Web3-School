@@ -1,0 +1,10 @@
+{"timestamp": "2026-05-28T09:35:50.656887", "actor": "test", "scenario": 1, "description": "Normal payment flow", "status": "PASS", "tx_hash": "0x6d9a89c515fe5f86c9b662903fc980c66aeba0826bf060f82247d6da490b407f", "amount": 10000}
+{"timestamp": "2026-05-28T09:35:50.661882", "actor": "test", "scenario": 2, "description": "Pact over-limit rejection", "status": "PASS", "error": "Payment blocked by Pact policy"}
+{"timestamp": "2026-05-28T09:35:50.665869", "actor": "test", "scenario": 3, "description": "Nonce replay protection", "status": "PASS", "nonce": "d81090a761a0053a992ced19572cf12e"}
+{"timestamp": "2026-05-28T09:35:50.669678", "actor": "test", "scenario": 4, "description": "Recipient whitelist enforcement", "status": "PASS"}
+{"timestamp": "2026-05-28T09:35:50.673532", "actor": "test", "scenario": 5, "description": "Daily spending limit", "status": "PASS", "daily_spent": 99000000}
+{"timestamp": "2026-05-28T09:36:13.710404", "actor": "test", "scenario": 1, "description": "Normal payment flow", "status": "PASS", "tx_hash": "0xd0fde1fe50b0c53bf178089ba0d83ab9aec712110c93f5621e5bebe68b200e58", "amount": 10000}
+{"timestamp": "2026-05-28T09:36:13.714711", "actor": "test", "scenario": 2, "description": "Pact over-limit rejection", "status": "PASS", "error": "Payment blocked by Pact policy"}
+{"timestamp": "2026-05-28T09:36:13.718348", "actor": "test", "scenario": 3, "description": "Nonce replay protection", "status": "PASS", "nonce": "a031070e45a2f089e14ec0d26c9d4164"}
+{"timestamp": "2026-05-28T09:36:13.722416", "actor": "test", "scenario": 4, "description": "Recipient whitelist enforcement", "status": "PASS"}
+{"timestamp": "2026-05-28T09:36:13.726323", "actor": "test", "scenario": 5, "description": "Daily spending limit", "status": "PASS", "daily_spent": 99000000}

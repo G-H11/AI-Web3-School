@@ -35,3 +35,8 @@
 |---|------|
 | 1 | Cron 定时触发 MORNING 模式：执行每日早晨学习规划 |
 | 2 | Week 2 Module C：选择熟悉 agent 写 Profile 草图（identity/capability/IO/协作/收费/验证/失败），加分题比较 MCP/A2A/ERC-8004/MPP 中两个 |
+| 3 | Week 2 Module D：画 Agent 链上动作执行流程图（标注自动/人工）、设计 Agent Wallet 权限策略（预算/合约/动作/确认/撤销/日志/失败）、解释 ERC-4337/Safe/Guard 的重要性 |
+| 4 | Week 2 Module F：为 Agent workflow 写 Threat Model（资产/权限/数据/工具调用/外部依赖/失败后果六维度）、设计「低风险自动/高风险人工」策略（风险分数=金额×操作×上下文×新鲜度）、加分题模拟 5 种攻击（注入/伪造/越权/上下文污染/RPC 中间人）测试基础设施层拦截效果 |
+| 5 | Week 2 Module G：DAO Grants 流程拆解（七阶段×🤖/🤖→👤/👤/🗳️四阶标记）、设计 Proposal Summarizer + Meeting-to-Action Workflow + Contribution Tracker 三工具草图、标出 AI 总结 vs 人工/治理确认的结论边界 |
+| 6 | Week 2 Module B 进阶：搭建 x402 + Cobo CAW 自主支付闭环 demo（架构图 + server.py + agent_client.py + pact_policy.json + audit_log.py + test_walkthrough.py），5 场景全部通过 |
+| 7 | 📦 Week 2 总交付：方向深挖包 + 项目初步 Proposal（SafeAgent Wallet）— 含问题地图（6方向）、方向选择说明、问题拆解、Proposal（用户/场景/MVP/验证/风险/Week3计划）、参考资料（7条）、主方向深挖包（流程图+场景+反例+风险+验证计划）、方向Backlog（3个未选方向） |
