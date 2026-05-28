@@ -28,3 +28,10 @@
 | 5 | 设计受限 Web3 助手（DeFi 仓位健康检查）：输入输出示例、AI 可做与不可做的事、人工确认点、≥3 风险、验证方法 |
 | 6 | 将 Zoom 转录 `2026-05-27 Neo-Cypherpunk & the Cultural Layers of Privacy` 整理为中文会议笔记 |
 | 7 | 拆解 2 个 AI×Web3 项目：Virtuals Protocol 和 ORA/opAgent，分别分析 AI 部分、Web3 部分、可验证材料、个人判断 |
+
+## 2026-05-28
+
+| # | 要求 |
+|---|------|
+| 1 | Cron 定时触发 MORNING 模式：执行每日早晨学习规划 |
+| 2 | Week 2 Module C：选择熟悉 agent 写 Profile 草图（identity/capability/IO/协作/收费/验证/失败），加分题比较 MCP/A2A/ERC-8004/MPP 中两个 |

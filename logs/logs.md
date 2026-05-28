@@ -27,3 +27,10 @@
 | 4 | 生成受限 Web3 助手设计（DeFi 仓位健康检查）：Mermaid 流程图 + 输入输出示例 + AI 可做/不可做边界 + 6 人工确认点 + 4 风险限制 + 5 验证方法 → `notes/2026-05-27 受限 Web3 助手设计 - DeFi 仓位健康检查.md` |
 | 5 | 读取 Zoom 转录（747 行），整理为结构化中文会议笔记（Neo-Cypherpunk 隐私文化、旧 vs 新 Cypherpunk 对比、实践指南、Q&A） → `notes/2026-05-27 Neo-Cypherpunk 隐私文化 - 为什么隐私对 Builders 至关重要.md` |
 | 6 | 拆解 Virtuals Protocol（Agent 代币化/ERC-8183 共同作者）和 ORA/opAgent（opML 链上 AI 推理/智能合约钱包）：分析问题、AI 部分、Web3 部分、可验证材料、个人判断、对比表 → `notes/2026-05-27 AI×Web3 项目拆解 - Virtuals 与 ORA.md` |
+
+## 2026-05-28
+
+| # | 操作 |
+|---|------|
+| 1 | MORNING 模式 cron 触发 → 获取日期（周四）、抓取 WCB Learning（确认 Week 2 课程结构）+ Handbook 目录；检查已有进度（5/26-27 已完成 Module A/B，主线 Wallet/Permission）；确认 5/26 Cobo + 5/27 Neo-Cypherpunk 会议笔记已存在；生成 `daily/2026-05-28.md`（Week 2 Module C：Agent 身份 + 可信执行 + 可验证 AI，三层路径含 Handbook 链接） |
+| 2 | 完成 Week 2 Module C 任务：以 Hermes Agent 为案例写完整 Agent Profile（identity/capability/IO/协作/收费/验证/失败）；加分题对比 MCP vs A2A（工具接口标准化 vs Agent 协作标准化）+ ERC-8004（信任发现层）；保存笔记 → `notes/2026-05-28 Agent Profile 草图与协议对比.md`；更新 daily note 学习笔记 + 打卡草稿 + prompts/logs |
