@@ -40,3 +40,28 @@
 | 5 | Week 2 Module G：DAO Grants 流程拆解（七阶段×🤖/🤖→👤/👤/🗳️四阶标记）、设计 Proposal Summarizer + Meeting-to-Action Workflow + Contribution Tracker 三工具草图、标出 AI 总结 vs 人工/治理确认的结论边界 |
 | 6 | Week 2 Module B 进阶：搭建 x402 + Cobo CAW 自主支付闭环 demo（架构图 + server.py + agent_client.py + pact_policy.json + audit_log.py + test_walkthrough.py），5 场景全部通过 |
 | 7 | 📦 Week 2 总交付：方向深挖包 + 项目初步 Proposal（SafeAgent Wallet）— 含问题地图（6方向）、方向选择说明、问题拆解、Proposal（用户/场景/MVP/验证/风险/Week3计划）、参考资料（7条）、主方向深挖包（流程图+场景+反例+风险+验证计划）、方向Backlog（3个未选方向） |
+
+## 2026-05-30
+
+| # | 要求 |
+|---|------|
+| 1 | Cron 定时触发 MORNING 模式：执行每日早晨学习规划（Week 3 周末巩固 + Hackathon 定向准备） |
+
+## 2026-05-31
+
+| # | 要求 |
+|---|------|
+| 1 | Cron 定时触发 MORNING 模式：周日休整日学习规划（共学→黑客松过渡，等待 6/1 宣发） |
+
+## 2026-06-01
+
+| # | 要求 |
+|---|------|
+| 1 | Cron 定时触发 MORNING 模式：Week 2 启动 — AI×Web3 交叉研究与方向选择，Hackathon 赛道确定 |
+| 2 | Cron 定时触发 EVENING 模式：回顾今日学习，生成晚间摘要 + 打卡草稿 |
+
+## 2026-06-02
+
+| # | 要求 |
+|---|------|
+| 1 | Cron 定时触发 MORNING 模式：Week 1 启动 — AI 与 Web3 基础知识，新一轮 Bootcamp 开营，整理 VC 分享会会议笔记 |

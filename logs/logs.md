@@ -39,3 +39,28 @@
 | 5 | 完成 Week 2 Module G 任务：以 DAO Community Grants 为场景，拆解七阶段完整流程（提案→讨论→投票→拨款→交付→追踪→复盘），每个步骤标注 🤖自动/🤖→👤草稿+人确认/👤纯人工/🗳️治理；设计 Proposal Summarizer（含 ⚠️AI推断标记）、Meeting-to-Action Workflow（含 4 种来源标记）、Contribution Tracker（含贡献者画像+社区健康仪表盘）三工具草图；输出 AI 结论 vs 人工/治理确认完整边界表 + 压倒规则；保存笔记 → `notes/2026-05-28 DAO Grants AI治理工具草图.md` |
 | 6 | 完成 Week 2 Module B 进阶任务：搭建 x402 + Cobo CAW 自主支付闭环完整 demo → `demos/x402-caw-paywall/`（README 架构图 + server.py x402 paywall 服务端 + agent_client.py 消费方 Agent + pact_policy.json CAW 策略 + audit_log.py 审计日志 + test_walkthrough.py 端到端测试）；5 测试场景全部通过：正常支付 → Pact超额拦截 → Nonce重放防护 → 地址白名单 → 每日限额；`python test_walkthrough.py` 可运行 |
 | 7 | 📦 完成 Week 2 总交付 → `notes/2026-05-28 Week2 总交付 - 方向深挖包与项目 Proposal.md`：AI×Web3 问题地图（6 方向标 AI作用+Web3机制）、方向选择说明（Wallet/Permission 为什么不是纯AI或纯Web3）、问题拆解（参与方/流程/自动化边界/确认点/验证/风险）、项目 Proposal（SafeAgent Wallet：目标用户 3 类/真实场景 2 个/MVP 4 阶段/赛道+Week3计划）、参考资料清单（7 条，每条注明帮判断什么）、主方向深挖包（流程图+典型场景+反例+关键风险 4 条+验证计划 4 阶段）、方向 Backlog（3 个未选方向+原因+何时重新考虑） |
+
+## 2026-05-30
+
+| # | 操作 |
+|---|------|
+| 1 | MORNING 模式 cron 触发 → 获取日期（周六）、抓取 WCB Learning（确认课程结构：4周，当前 Week 1 官方=AI×Web3 基础，学员自定进度 Week 3 Hackathon 启动）+ Handbook 目录；确认 4 个 Zoom 会议均已转笔记；识别学员已进入 Week 3 阶段（SafeAgent Wallet 项目 + Hackathon 准备）；5/29 例会确认：Hackathon 6/3 正式开始，Track 1 Cobo Agent Economy / Track 2 ZAI 开放赛道；生成 `daily/2026-05-30.md`（Week 3 Day 2 周末巩固：复盘本周 + Hackathon 赛道定向，三层路径含 Account Abstraction/Agent Wallet/Machine Payment 复习 + MVP 技术验证） |
+
+## 2026-05-31
+
+| # | 操作 |
+|---|------|
+| 1 | MORNING 模式 cron 触发 → 获取日期 2026-05-31 周日、curl 抓取 WCB Learning RSC payload（curriculumWeeks: 4 周结构）+ Handbook 完整侧边栏目录；确认无新 Zoom 会议需处理（本周 4 场均已转笔记）；识别周日过渡期（共学收尾→黑客松备战，6/1 宣发文章待发，6/3 Hackathon 启动）；盘点已产出物（7 项笔记/Demo）可复用性；生成 `daily/2026-05-31.md`（周日轻量规划：最小路径 20min 复习 Agent Wallet/Workflow + 推荐路径 40min Wallet Permission/Machine Payment 定向补齐 + 挑战路径 MVP 技术预研） |
+
+## 2026-06-01
+
+| # | 操作 |
+|---|------|
+| 1 | MORNING 模式 cron 触发 → 获取日期 2026-06-01 周一、curl 抓取 WCB Learning RSC payload（Week 2: AI×Web3 交叉研究与方向选择）+ curl 抓取 Handbook 完整侧边栏目录（AI基础/Web3基础/Bridge/前沿探索 四层结构）；确认 4 个已处理 Zoom 会议无需新增转化；识别 Week 2 启动日（周一）+ Hackathon 关键日（6/1 宣发文发、6/3 Hackathon 开始）；盘点 6 项可复用产出物（SafeAgent Wallet 架构/Threat Model/Profile/ERC20 工作流/协议速查/安全策略）；生成 `daily/2026-06-01.md`（三层路径：最小 30min Bridge 核心章 Chain-aware Context+Web3 Tool Use+Agent Workflow / 推荐 1h 深入 Agent Wallet+Identity+Machine Payment+赛道调研 / 挑战 1h+ 方向确定+结算/可验证 AI+Proposal 初稿；含 Hackathon Track 1 vs Track 2 方向选择分析） |
+| 2 | EVENING 模式 cron 触发 → 确认日期 2026-06-01 周一；读取 `daily/2026-06-01.md`（所有任务未确认完成状态）；检查 git log（今日无提交）；检查 notes/（今日无新笔记，5/28 已有 5 项笔记+Week2 总交付可复用）；无用户交互记录（纯 cron 触发）；更新 daily note 新增「晚间回顾」Section（进度快照 + Hackathon 明天开始提醒 + 6/2 建议）；更新打卡草稿；更新 prompts/logs |
+
+## 2026-06-02
+
+| # | 操作 |
+|---|------|
+| 1 | MORNING 模式 cron 触发 → 获取日期 2026-06-02 周二；curl 抓取 WCB Learning RSC payload 获取新版 curriculumWeeks（Week 1: AI 与 Web3 基础知识 / Week 2: 交叉研究与方向选择 / Week 3: 共学营深化+Hackathon 启动 / Week 4: Hackathon 冲刺开发）；curl 抓取 Handbook 完整侧边栏目录；发现新 Zoom 转录 `2026-06-01 从 VC 角度，如何更好打磨项目`（2418 行，Tracy Shi/水滴资本）；确认无已有 `daily/2026-06-02.md`；读取 `daily/2026-06-01.md` 获取上下文（SafeAgent Wallet 方向确定/Hackathon 6/3 开始）；整理 Zoom 转录为结构化会议笔记 → `notes/2026-06-01 从 VC 角度，如何更好打磨项目.md`（含 VC 投资标准转变/壁垒本质/创始人评分/投资流程/Q&A/SafeAgent Wallet 启示）；生成 `daily/2026-06-02.md`（三层路径：最小 30min Handbook 主页+Chain-aware Context 复习 / 推荐 1h LLM+Prompt+Context+Wallet+AA / 挑战 1h+ Agent Workflow+Wallet+Machine Payment+Cobo SDK+Proposal 终稿；含开营仪式提醒/Hackathon 明天开始提醒/VC 会议启示）；更新 prompts/logs |
