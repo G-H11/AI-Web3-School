@@ -65,3 +65,12 @@
 | # | 要求 |
 |---|------|
 | 1 | Cron 定时触发 MORNING 模式：Week 1 启动 — AI 与 Web3 基础知识，新一轮 Bootcamp 开营，整理 VC 分享会会议笔记 |
+
+## 2026-06-03
+
+| # | 要求 |
+|---|------|
+| 1 | Cron 定时触发 MORNING 模式：Week 1 Day 3 — AI 与 Web3 基础知识 + Hackathon Build 第 1 天，整理 Hackathon Openday 会议笔记 |
+| 2 | 提问：如果选择 Z.AI | Web3 × Long-Horizon Task 赛道，AI Agent 如何拆解复杂任务、持续调用工具、迭代修复、完成从需求到交付的 Web3 工作流 |
+| 3 | 提问：画出 SafeAgent Wallet 项目最小闭环，包括用户输入、AI Agent 处理、Web3 机制、链上/SDK/工具调用、输出结果和验证材料 |
+| 4 | 任务：围绕主方向选 2-3 个标准/协议/SDK/项目写阅读摘要（解决问题/边界/还缺什么） |
