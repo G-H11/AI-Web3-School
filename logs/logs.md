@@ -3,7 +3,15 @@
 > 简化记录每次对话中 Agent 完成的操作。
 > 格式：`日期 时间 | 操作摘要`
 
----
+## 2026-06-04
+
+| 时间 | 操作摘要 |
+|------|---------|
+| 08:00 | MORNING cron：获取日期 → 拉取 WCB Learning RSC payload（确认 Week 1 Day 4 + Hackathon Build Day 2）→ 拉取 Handbook 完整目录 → 检查 Zoom 转录（6/1-6/3 已全部整理）→ 生成三层学习路径（Oracle/Indexing → Settlement/Identity + MVP 编码 → Trust/Verifiable AI）→ 写入 daily/2026-06-04.md |
+| 21:00 | EVENING cron：获取日期 → 读取 daily/2026-06-04.md → 发现今日 Zoom 转录「支付场景的探索和思考」→ 读取完整转录（684 行）→ 整理结构化会议笔记（Agent 权限阶梯 / Mandate 模式 / 三层验证引擎 / 与 SafeAgent Wallet 对照）→ 更新 daily note 学习笔记 + 打卡草稿 → 更新 prompts/logs |
+| 21:20 | NFT DApp 全栈开发：① 环境搭建（Foundry v1.7.1 + Scaffold-ETH 2 + OpenZeppelin + forge-std）→ ② 编写 IMPLEMENTATION_PLAN.md（4 Phase / 30+ 任务）→ ③ 智能合约（BasicNFT.sol / BatchNFT.sol / MultiTokenNFT.sol / NFTMarketplace.sol + DeployAll.s.sol）→ ④ 测试（43 tests 全部通过）→ ⑤ 前端类型+工具库（types/nft.ts / lib/pinata.ts / lib/metadata.ts）→ ⑥ Hooks（useNFTContract / useMarketplace / useIPFS）→ ⑦ 组件（NFTCard / NFTGrid / MintForm / BatchMintForm / PurchaseModal / AdminPanel / Header / ClientLayout）→ ⑧ 页面（Gallery / Mint / NFT详情 / Admin）→ ⑨ 配置（.env.example × 2 / scaffold.config.ts）→ ⑩ 打卡更新 + Git push |
+
+
 
 ## 2026-05-26
 
@@ -73,3 +81,4 @@
 | 2 | 问答：学员提问 Z.AI Long-Horizon Task 工作流 → 加载 Openday 会议笔记获取 Z.AI 赛道详情 + 加载项目分析框架 reference → 以「ERC-20 空投工具」为例，完整拆解：① 任务拆解（需求结构化→依赖分析→工具映射）② 持续工具调用（MCP 协议下 forge/git/web/chain 反馈闭环）③ 迭代修复（编译错误/测试失败/链上 revert 三种错误 × 修复策略 + 5 轮迭代示例）④ 完整交付链路（需求→合约→测试→部署→前端→README→Demo）。附 Track 1 vs Track 2 对比表。保存结构化学习笔记 → `notes/2026-06-03 Z.AI Long-Horizon Task — AI Agent 工作流拆解.md`；静默更新 prompts/logs |
 | 3 | 问答：学员要求画出 SafeAgent Wallet 最小闭环 → 加载 agent-wallet-security 参考（权限七维度/风险分级/Threat Model/防御四层）→ 以「用户设定权限→ETH→USDC swap」为例，绘制 12 步全链路 ASCII 框图（①用户权限设定→②AI意图解析→③策略查询→④风险评分→⑤Policy Engine四检查→⑥Safe Guard calldata解析→⑦ERC-4337 Smart Account→⑧Cobo CAW SDK→⑨链上RPC→⑩tx receipt→⑪16字段审计日志→⑫安全验证报告+Merkle root），标注四种风险路径（🟢自动/🟡半自动/🔴人工/🛑冻结）+ 五层验证对应表。保存笔记 → `notes/2026-06-03 SafeAgent Wallet 最小闭环架构.md`；静默更新 prompts/logs |
 | 4 | 任务：学员要求写阅读摘要 → 加载 agent-wallet-security + agent-commerce-protocols 参考 → 围绕 SafeAgent Wallet 主线选三项：① ERC-4337（解决问题：EOA不可编程→Smart Account；边界：EntryPoint不可升级/Bundler中心化/跨链不互通/validateUserOp攻击面；还缺：Bundler去中心化/Session Key标准/Agent桥接接口）② Safe+Guard（解决问题：链上强制拦截钩子checkTransaction；边界：只查calldata不查意图/单Guard/有gas限制/只能阻止不能修正；还缺：Oracle多源验证/Guard分层标准/Agent感知/可升级Guard）③ Cobo Agentic Wallet SDK（解决问题：MPC密钥分片+Agent账户+策略模板；边界：EVM为主/策略托管在Cobo端/Guard兼容性待验证/收费模型未明；还缺：自定义Policy合约/A2A支付/多Agent层级/开发者文档）。附三者关系架构图+Workshop待确认三问。保存笔记 → `notes/2026-06-03 阅读摘要 — ERC-4337 × Safe Guard × Cobo Agentic Wallet.md`；静默更新 prompts/logs |
+| 5 | 更新打卡草稿：读取 `daily/2026-06-03.md` → 用今日三次学习问答的实际内容替换早晨自动生成的占位草稿：①学习笔记新增 8 个关键概念表格 + 3 个产出文件清单 + Workshop 三问 ②打卡草稿重写为实际学习内容（双赛道理解/工作流拆解/最小闭环架构/三协议阅读摘要）③四个收获点从已有分析中提炼（纠错闭环/安全边界在AI外/Agent感知层缺口/风险分级框架）。静默更新 prompts/logs |

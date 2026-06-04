@@ -3,7 +3,15 @@
 > 简化记录每次对话中用户提出的要求。
 > 格式：`日期 时间 | 要求摘要`
 
----
+## 2026-06-04
+
+| 时间 | 要求摘要 |
+|------|---------|
+| 08:00 | Cron MORNING 模式自动触发 — 每日学习规划 |
+| 21:00 | Cron EVENING 模式自动触发 — 晚间回顾 + 打卡草稿 + Flux 会议笔记整理 |
+| 21:20 | 开发 Hackathon NFT Collection DApp：以太坊 NFT 馆藏，ERC-721/721A/1155 三种标准，Scaffold-ETH 2 + Foundry + Next.js + Viem/Wagmi + Tailwind + shadcn/ui，含铸造/展示/详情/浏览/购买/后台管理，IPFS+Pinata 存储 |
+
+
 
 ## 2026-05-26
 
@@ -74,3 +82,4 @@
 | 2 | 提问：如果选择 Z.AI | Web3 × Long-Horizon Task 赛道，AI Agent 如何拆解复杂任务、持续调用工具、迭代修复、完成从需求到交付的 Web3 工作流 |
 | 3 | 提问：画出 SafeAgent Wallet 项目最小闭环，包括用户输入、AI Agent 处理、Web3 机制、链上/SDK/工具调用、输出结果和验证材料 |
 | 4 | 任务：围绕主方向选 2-3 个标准/协议/SDK/项目写阅读摘要（解决问题/边界/还缺什么） |
+| 5 | 要求：更新打卡笔记草稿 |
