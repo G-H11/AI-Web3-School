@@ -1,0 +1,11 @@
+node_modules/
+.yarn/cache/
+.yarn/install-state.gz
+.env
+.env.local
+packages/foundry/out/
+packages/foundry/cache/
+packages/foundry/lib/forge-std/
+packages/nextjs/.next/
+packages/nextjs/out/
+*.log

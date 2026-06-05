@@ -3,6 +3,12 @@
 > 简化记录每次对话中 Agent 完成的操作。
 > 格式：`日期 时间 | 操作摘要`
 
+## 2026-06-05
+
+| 时间 | 操作摘要 |
+|------|---------|
+| 08:00 | MORNING cron：获取日期（2026-06-05 周五）→ 拉取 WCB Learning RSC payload（确认 Week 1 Day 5 + Hackathon Build Day 3）→ 拉取 Handbook 完整目录 → 检查 Zoom 转录（全部已整理）→ 读取前日 daily note 追踪 Hackathon 进度（SafeAgent Wallet MVP 编码延迟 + Cobo SDK 3 个待确认问题 + NFT DApp 接近完成）→ 生成三层学习路径（AI Security / DeFi → Agent Trust / Verifiable AI + MVP 编码 → MCP / Agent Workflow）→ 写入 daily/2026-06-05.md |
+
 ## 2026-06-04
 
 | 时间 | 操作摘要 |

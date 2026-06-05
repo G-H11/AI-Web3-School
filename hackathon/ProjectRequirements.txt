@@ -1,0 +1,2 @@
+开发一个以太坊关于NFT馆藏的DAPP，NFT标准参考ERC-721、ERC-1155、ERC-721A。开发框架使用Scaffold-ETH 2、智能合约选择Foundry、前端框架使用Next.js  + TypeScript、区块链交互用Viem + Wagmi、样式库使用Tailwind CSS + shadcn/ui
+项目文件放在路径F:\Work\collaborativeLearning\AI-Web3-School\hackathon中，其中NFT存储在IPFS + Pinata，基本功能包括铸造(批量铸造)、展示、详情、浏览、购买、后台管理等，各功能组件模块低耦合，方便后续扩展。最后有问题代码生成后进行统一汇总，比如IPFS+Pinata需要的API Key等私密信息，可以先生成.env文件，后续我自己添加，合约测试代码也同步写好，方便后续测试
