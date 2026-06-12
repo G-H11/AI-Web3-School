@@ -3,11 +3,38 @@
 > 简化记录每次对话中 Agent 完成的操作。
 > 格式：`日期 时间 | 操作摘要`
 
+## 2026-06-09
+
+| 时间 | 操作摘要 |
+|------|---------|
+| 08:00 | MORNING cron：获取日期（2026-06-09 周二）→ 拉取 WCB Learning RSC payload（确认新版 Week 1-4 结构，curriculumWeeks 含 4 周）→ 拉取 Handbook 首页 + 侧边栏完整目录 → daily/2026-06-09.md 不存在，确认 MORNING 模式 → 读取 6/8 daily note（Hackathon 编码延迟 3 天，距截止 4 天）→ 创建 daily/2026-06-09.md（三层路径：最小=Hackathon 编码 + 基础速览，推荐=MCP/Account Abstraction/AI Security，挑战=Verifiable AI/Agent Identity）→ 更新 prompts/logs |
+
+## 2026-06-08
+
+| 时间 | 操作摘要 |
+|------|---------|
+| 21:00 | EVENING cron：获取日期（2026-06-08 周一）→ daily note 不存在（无早间规划）→ 拉取 WCB Learning（新版 Week 1-4 結構今日上線）→ 检查 Zoom 转录（发现 1 场新转录：`2026-06-08 20.10.06 Moven Tsai ZKP 分享`）→ 读取完整 ZKP 转录（2271 行）→ 生成结构化会议笔记 `notes/2026-06-08 以零知識證明的理論開始，分享各項應用.md`（含 ZKP 理論 / ZKML / ZK Identity / ZK Rollups / 荷蘭二戰教訓）→ 检查 hackathon/（仅 2 个计划文件，无项目代码，Phase 1 第 3 天延迟）→ 创建 daily/2026-06-08.md（含 Hackathon 延迟统计表）→ 更新 prompts/logs |
+
+## 2026-06-07
+
+| 时间 | 操作摘要 |
+|------|---------|
+| 08:00 | MORNING cron：获取日期（2026-06-07 周日）→ WCB Learning 页面不可访问（curl 空返回 + browser Chromium 缺库）→ 拉取 WCB LLMs.txt（确认 API 结构但无 API Key）→ Handbook 返回成功 → 检查 Zoom 转录（2 个 6/5 转录已处理，无新转录）→ 读取 6/5-6/6 daily notes + ZAI_TRACK_PLAN + VINOTHEQUE_PLAN 确认 Phase 1 编码任务 → 生成三层路径（最小：合约+API回顾 / 推荐：Scaffold-ETH2+z.ai集成 / 挑战：AI侍酒师多轮对话）→ 写入 daily/2026-06-07.md |
+| 21:00 | EVENING cron：获取日期（2026-06-07 周日）→ 读取 daily/2026-06-07.md（所有任务未勾选）→ 检查 git log（无今日提交，最新 6/5）→ 检查 hackathon/（仅 2 个计划文件，无项目代码）→ 检查 notes/（今日无新笔记）→ 检查 Zoom 转录（今日无新转录）→ 检查 git status（有待提交变更）→ 更新 daily note 晚间回顾 + prompts/logs |
+
+## 2026-06-06
+
+| 时间 | 操作摘要 |
+|------|---------|
+| 08:00 | MORNING cron：获取日期（2026-06-06 周六）→ 拉取 WCB Learning + Handbook → 检查 Zoom 转录（无新转录）→ 读取前日 daily note 追踪 Hackathon 进度（SafeAgent Wallet 第 3 天延迟 + NFT DApp 90%）→ 生成三层学习路径（最小：MVP 编码启动 / 推荐：完整 Policy Engine / 挑战：Demo Day 准备）→ 写入 daily/2026-06-06.md |
+| 21:00 | EVENING cron：获取日期 → 读取 daily/2026-06-06.md → 检测 git diff 发现重大策略调整（hackathon/ 清空，仅保留 2 个新计划文件）→ 读取 VINOTHEQUE_PLAN.md（533 行完整设计）+ ZAI_TRACK_PLAN.md（181 行 5 Phase 计划）→ 发现 nft-temp/ 为旧 NFT DApp 归档 → 确认 SafeAgent Wallet 仍未启动 → 更新 daily note（任务完成状态 + Hackathon 策略调整表 + 学习笔记 + 打卡草稿）→ 更新 prompts/logs |
+
 ## 2026-06-05
 
 | 时间 | 操作摘要 |
 |------|---------|
-| 08:00 | MORNING cron：获取日期（2026-06-05 周五）→ 拉取 WCB Learning RSC payload（确认 Week 1 Day 5 + Hackathon Build Day 3）→ 拉取 Handbook 完整目录 → 检查 Zoom 转录（全部已整理）→ 读取前日 daily note 追踪 Hackathon 进度（SafeAgent Wallet MVP 编码延迟 + Cobo SDK 3 个待确认问题 + NFT DApp 接近完成）→ 生成三层学习路径（AI Security / DeFi → Agent Trust / Verifiable AI + MVP 编码 → MCP / Agent Workflow）→ 写入 daily/2026-06-05.md |
+| 08:00 | MORNING cron：获取日期（2026-06-05 周五）→ 拉取 WCB Learning RSC payload（⚠️ 标注为 Week 1，晚间确认实际为 Week 3）→ 拉取 Handbook 完整目录 → 检查 Zoom 转录（全部已整理）→ 读取前日 daily note 追踪 Hackathon 进度（SafeAgent Wallet MVP 编码延迟 + Cobo SDK 3 个待确认问题 + NFT DApp 接近完成）→ 生成三层学习路径 → 写入 daily/2026-06-05.md |
+| 21:00 | EVENING cron：获取日期 → 读取 daily/2026-06-05.md → 发现 SafeAgent Wallet MVP 未启动 → 发现两场新 Zoom 转录（Darwin Workshop 1692行 + Week 3 例会 159行）→ 整理 Darwin Workshop 结构化笔记（成本-收益临界点框架 / 本质vs附属复杂性 / 五步开发流程 / Roughloop / Implementation Notes）→ 整理 Week 3 例会笔记（Demo Day 6/14 / Week 3 确认 / 单人参赛者规划参考）→ 修正 daily note Week 标注错误 → 填充学习笔记 + 打卡草稿 → 更新 prompts/logs |
 
 ## 2026-06-04
 
@@ -88,3 +115,15 @@
 | 3 | 问答：学员要求画出 SafeAgent Wallet 最小闭环 → 加载 agent-wallet-security 参考（权限七维度/风险分级/Threat Model/防御四层）→ 以「用户设定权限→ETH→USDC swap」为例，绘制 12 步全链路 ASCII 框图（①用户权限设定→②AI意图解析→③策略查询→④风险评分→⑤Policy Engine四检查→⑥Safe Guard calldata解析→⑦ERC-4337 Smart Account→⑧Cobo CAW SDK→⑨链上RPC→⑩tx receipt→⑪16字段审计日志→⑫安全验证报告+Merkle root），标注四种风险路径（🟢自动/🟡半自动/🔴人工/🛑冻结）+ 五层验证对应表。保存笔记 → `notes/2026-06-03 SafeAgent Wallet 最小闭环架构.md`；静默更新 prompts/logs |
 | 4 | 任务：学员要求写阅读摘要 → 加载 agent-wallet-security + agent-commerce-protocols 参考 → 围绕 SafeAgent Wallet 主线选三项：① ERC-4337（解决问题：EOA不可编程→Smart Account；边界：EntryPoint不可升级/Bundler中心化/跨链不互通/validateUserOp攻击面；还缺：Bundler去中心化/Session Key标准/Agent桥接接口）② Safe+Guard（解决问题：链上强制拦截钩子checkTransaction；边界：只查calldata不查意图/单Guard/有gas限制/只能阻止不能修正；还缺：Oracle多源验证/Guard分层标准/Agent感知/可升级Guard）③ Cobo Agentic Wallet SDK（解决问题：MPC密钥分片+Agent账户+策略模板；边界：EVM为主/策略托管在Cobo端/Guard兼容性待验证/收费模型未明；还缺：自定义Policy合约/A2A支付/多Agent层级/开发者文档）。附三者关系架构图+Workshop待确认三问。保存笔记 → `notes/2026-06-03 阅读摘要 — ERC-4337 × Safe Guard × Cobo Agentic Wallet.md`；静默更新 prompts/logs |
 | 5 | 更新打卡草稿：读取 `daily/2026-06-03.md` → 用今日三次学习问答的实际内容替换早晨自动生成的占位草稿：①学习笔记新增 8 个关键概念表格 + 3 个产出文件清单 + Workshop 三问 ②打卡草稿重写为实际学习内容（双赛道理解/工作流拆解/最小闭环架构/三协议阅读摘要）③四个收获点从已有分析中提炼（纠错闭环/安全边界在AI外/Agent感知层缺口/风险分级框架）。静默更新 prompts/logs |
+
+## 2026-06-06
+
+| # | 操作 |
+|---|------|
+| 1 | MORNING 模式 cron 触发 → 获取日期 2026-06-06 周六；curl 抓取 WCB Learning RSC payload 确认 curriculumWeeks 结构（Week 1-4，Week 3 共学营深化+Hackathon 启动）；curl 抓取 Handbook 完整目录（AI 基础/Web3 基础/Bridge/前沿探索 四层结构）；读取 `daily/2026-06-05.md` 获取上下文（Week 3 确认/已修正标注错误/Hackathon Build Day 3/SafeAgent Wallet 编码连续 3 天延迟/Demo Day 6/14 倒计时 8 天）；检查 Zoom 转录发现 6/3「黑客松赛道实战」未整理笔记 → 读取转录（2148行）并创建结构化会议笔记 → `notes/2026-06-03 黑客松赛道实战 — Cobo Agentic Wallet 开发全流程.md`（含双环境架构/Pact 权限机制 5 规则+5 安全特性+4 局限性/API vs CLI 对比/接入流程 3 步/Q&A 4 问精要/SafeAgent Wallet 9 项对应启发）；确认 6/1-6/5 其他 Zoom 会议均已整理完毕；生成 `daily/2026-06-06.md`（三层路径优化：最小 30min AI Security 回顾+SafeAgent Wallet Phase 0→1 编码启动 / 推荐 1h Agent Wallet+Verifiable AI+Policy Engine 四规则+AuditLogger 编码 / 挑战 1h+ Agent Trust & Reputation+MCP+Demo Day 准备；含 Hackathon 倒计时 7 天+昨日未完成任务继承+Cobo 3 问待确认）；更新 prompts/logs |
+
+## 2026-06-12
+
+| # | 操作 |
+|---|------|
+| 1 | EVENING 模式 cron 触发 → 获取日期 2026-06-12 周五；检查 `daily/2026-06-12.md` 不存在；读取最近 daily note（6/8-6/9）获取上下文；检查 hackathon/bar-fi 项目（Scaffold-ETH-2 初始化、YourCollectible.sol 321 行 NFT 市场合约、6 个前端页面、IPFS Pinata 集成、中文导航）；git log 显示 Initial commit + 26 文件修改未提交；curl 抓取 WCB 确认 Week 4 Hackathon 冲刺阶段；检查 Zoom 无今日转录；生成 `daily/2026-06-12.md`（晚间回顾模式，含 Hackathon 倒计时警告、bar-fi 项目进度 50%、明日必做清单、打卡草稿）；更新 prompts/logs |

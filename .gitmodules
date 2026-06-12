@@ -1,0 +1,3 @@
+[submodule "hackathon/bar-fi"]
+	path = hackathon/bar-fi
+	url = https://github.com/G-H11/bar-fi.git

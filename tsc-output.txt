@@ -1,0 +1,101 @@
+﻿app/blockexplorer/_components/AddressComponent.tsx(7,40): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/_components/AddressLogsTab.tsx(1,25): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/_components/AddressStorageTab.tsx(4,58): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/_components/AddressStorageTab.tsx(5,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+app/blockexplorer/_components/ContractTabs.tsx(9,51): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/_components/ContractTabs.tsx(10,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+app/blockexplorer/_components/ContractTabs.tsx(43,29): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+app/blockexplorer/_components/SearchBar.tsx(5,34): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/_components/SearchBar.tsx(6,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+app/blockexplorer/_components/TransactionsTable.tsx(3,29): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/address/[address]/page.tsx(4,25): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/address/[address]/page.tsx(5,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+app/blockexplorer/page.tsx(6,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+app/blockexplorer/transaction/[txHash]/page.tsx(3,22): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/transaction/_components/TransactionComp.tsx(6,81): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+app/blockexplorer/transaction/_components/TransactionComp.tsx(7,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+app/blockexplorer/transaction/_components/TransactionComp.tsx(136,42): error TS7006: Parameter 'log' implicitly has an 'any' type.
+app/blockexplorer/transaction/_components/TransactionComp.tsx(136,47): error TS7006: Parameter 'i' implicitly has an 'any' type.
+app/debug/_components/ContractUI.tsx(56,49): error TS2322: Type 'string | number | symbol' is not assignable to type 'ReactNode'.
+  Type 'symbol' is not assignable to type 'ReactNode'.
+app/debug/_components/ContractUI.tsx(112,40): error TS7006: Parameter 'name' implicitly has an 'any' type.
+app/debug/_components/ContractUI.tsx(175,40): error TS7006: Parameter 'name' implicitly has an 'any' type.
+app/debug/_components/DebugContracts.tsx(49,19): error TS2322: Type 'string | number | symbol' is not assignable to type 'Key | null | undefined'.
+  Type 'symbol' is not assignable to type 'Key | null | undefined'.
+app/debug/_components/DebugContracts.tsx(52,19): error TS2322: Type 'string | number | symbol' is not assignable to type 'ReactNode'.
+  Type 'symbol' is not assignable to type 'ReactNode'.
+app/debug/_components/DebugContracts.tsx(53,35): error TS2538: Type 'symbol' cannot be used as an index type.
+app/debug/_components/DebugContracts.tsx(64,64): error TS2322: Type 'string | number | symbol' is not assignable to type 'Key | null | undefined'.
+  Type 'symbol' is not assignable to type 'Key | null | undefined'.
+components/Footer.tsx(4,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+components/Header.tsx(7,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+components/scaffold-eth/Address.tsx(5,28): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/Address.tsx(6,45): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/Address.tsx(7,28): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/AddressInput.tsx(4,56): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/AddressInput.tsx(5,45): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/Balance.tsx(4,45): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/Balance.tsx(5,28): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/Balance.tsx(6,29): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/EtherInput.tsx(4,28): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/Faucet.tsx(8,78): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/Faucet.tsx(9,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+components/scaffold-eth/FaucetButton.tsx(5,54): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/FaucetButton.tsx(6,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+components/scaffold-eth/RainbowKitCustomConnectButton/AddressInfoDropdown.tsx(3,28): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/RainbowKitCustomConnectButton/AddressInfoDropdown.tsx(4,25): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/RainbowKitCustomConnectButton/AddressQRCodeModal.tsx(3,40): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/scaffold-eth/RainbowKitCustomConnectButton/index.tsx(11,25): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+components/ScaffoldEthAppWithProviders.tsx(5,50): error TS2307: Cannot find module '@tanstack/react-query' or its corresponding type declarations.
+hooks/scaffold-eth/useContractLogs.ts(3,30): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useContractLogs.ts(28,29): error TS7006: Parameter '_blockNumber' implicitly has an 'any' type.
+hooks/scaffold-eth/useContractLogs.ts(28,43): error TS7006: Parameter 'prevBlockNumber' implicitly has an 'any' type.
+hooks/scaffold-eth/useDeployedContractInfo.ts(49,62): error TS2538: Type 'symbol' cannot be used as an index type.
+hooks/scaffold-eth/useFetchBlocks.ts(11,8): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useFetchBlocks.ts(12,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+hooks/scaffold-eth/useFetchBlocks.ts(57,29): error TS7006: Parameter 'block' implicitly has an 'any' type.
+hooks/scaffold-eth/useFetchBlocks.ts(58,36): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+hooks/scaffold-eth/useFetchBlocks.ts(62,31): error TS7006: Parameter 'block' implicitly has an 'any' type.
+hooks/scaffold-eth/useFetchBlocks.ts(63,40): error TS7006: Parameter 'tx' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldContract.ts(1,73): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(2,44): error TS2307: Cannot find module '@tanstack/react-query' or its corresponding type declarations.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(4,48): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(5,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(37,20): error TS7006: Parameter 'log' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(151,23): error TS7031: Binding element 'pageParam' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(180,24): error TS7006: Parameter 'lastPage' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(180,34): error TS7006: Parameter 'allPages' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(180,44): error TS7006: Parameter 'lastPageParam' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(192,13): error TS7006: Parameter 'data' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldEventHistory.ts(275,43): error TS7006: Parameter 'event' implicitly has an 'any' type.
+hooks/scaffold-eth/useScaffoldReadContract.ts(2,69): error TS2307: Cannot find module '@tanstack/react-query' or its corresponding type declarations.
+hooks/scaffold-eth/useScaffoldReadContract.ts(4,39): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useScaffoldWatchContractEvent.ts(2,21): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useScaffoldWriteContract.ts(2,31): error TS2307: Cannot find module '@tanstack/react-query' or its corresponding type declarations.
+hooks/scaffold-eth/useTransactor.tsx(1,83): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useWatchBalance.ts(2,30): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+hooks/scaffold-eth/useWatchBalance.ts(3,28): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+scaffold.config.ts(1,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+services/web3/wagmiConfig.tsx(2,53): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+services/web3/wagmiConfig.tsx(3,34): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+services/web3/wagmiConfig.tsx(16,41): error TS2345: Argument of type '{ chains: readonly [any] | readonly [any, any]; connectors: CreateConnectorFn[]; ssr: true; client: ({ chain }: { chain: any; }) => any; }' is not assignable to parameter of type 'CreateConfigParameters<readonly [any] | readonly [any, any], Record<any, Transport<string, Record<string, any>, EIP1193RequestFn>>, CreateConnectorFn[]>'.
+  Type '{ chains: readonly [any] | readonly [any, any]; connectors: CreateConnectorFn[]; ssr: true; client: ({ chain }: { chain: any; }) => any; }' is not assignable to type '{ [x: string]: undefined; [x: number]: undefined; [x: symbol]: undefined; chains: readonly [any] | readonly [any, any]; connectors?: CreateConnectorFn[] | undefined; multiInjectedProviderDiscovery?: boolean | undefined; storage?: Storage | ... 1 more ... | undefined; ssr?: boolean | undefined; syncConnectedChain?: b...'.
+    Property 'chains' is incompatible with index signature.
+      Type 'readonly [any] | readonly [any, any]' is not assignable to type 'undefined'.
+        Type 'readonly [any]' is not assignable to type 'undefined'.
+services/web3/wagmiConnectors.tsx(11,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+utils/scaffold-eth/block.ts(1,56): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+utils/scaffold-eth/blockExplorer.ts(1,28): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+utils/scaffold-eth/contract.ts(4,31): error TS2307: Cannot find module '@tanstack/react-query' or its corresponding type declarations.
+utils/scaffold-eth/contract.ts(27,8): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+utils/scaffold-eth/contract.ts(91,39): error TS2538: Type 'any' cannot be used as an index type.
+utils/scaffold-eth/decodeTxData.ts(3,66): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+utils/scaffold-eth/decodeTxData.ts(4,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+utils/scaffold-eth/decodeTxData.ts(60,8): error TS7006: Parameter 'name' implicitly has an 'any' type.
+utils/scaffold-eth/decodeTxData.ts(60,14): error TS7006: Parameter 'i' implicitly has an 'any' type.
+utils/scaffold-eth/fetchPriceFromUniswap.ts(2,39): error TS2307: Cannot find module '@uniswap/sdk-core' or its corresponding type declarations.
+utils/scaffold-eth/fetchPriceFromUniswap.ts(3,29): error TS2307: Cannot find module '@uniswap/v2-sdk' or its corresponding type declarations.
+utils/scaffold-eth/fetchPriceFromUniswap.ts(4,71): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+utils/scaffold-eth/fetchPriceFromUniswap.ts(5,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
+utils/scaffold-eth/getParsedError.ts(1,75): error TS2307: Cannot find module 'viem' or its corresponding type declarations.
+utils/scaffold-eth/networks.ts(1,25): error TS2307: Cannot find module 'viem/chains' or its corresponding type declarations.
